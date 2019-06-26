@@ -1,0 +1,27 @@
+<?	$url[0] = "./images/t_title1.jpg";
+	$url[1] = "./images/t_title2.jpg";
+	$url[2] = "./images/t_title3.jpg";
+	$url[3] = "./images/t_title4.jpg";
+	$url[4] = "./images/t_title5.jpg";
+	$url[5] = "./images/t_title6.jpg";
+	$url[6] = "./images/t_title7.jpg";
+	$url[7] = "./images/t_title8.jpg";
+	$url[8] = "./images/t_title9.jpg";
+	$url[9] = "./images/t_title10.jpg";
+	$url[10] = "./images/t_title11.jpg";
+	$url[11] = "./images/t_title12.jpg";
+	$url[12] = "./images/t_title13.jpg";
+	$url[13] = "./images/t_title14.jpg";
+	$url[14] = "./images/t_title15.jpg";
+	$url[15] = "./images/t_title16.jpg";
+	$url[16] = "./images/t_title17.jpg";
+	$url[17] = "./images/t_title18.jpg";
+	$url[18] = "./images/t_title19.jpg";
+	$url[19] = "./images/t_title20.jpg";
+	$url[20] = "./images/t_title21.jpg";
+	$url[21] = "./images/t_title22.jpg";
+	$url[22] = "./images/t_title23.jpg";
+	srand ((double)microtime()*1000000);
+	$randomnum = rand(0, count($url)-1);
+	print "<img src=\"$url[$randomnum]\" border=\"0\">";
+	?>

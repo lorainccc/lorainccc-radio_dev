@@ -1,0 +1,16 @@
+@media screen and (max-width: 39.9375em) {
+
+    div.medium-blue-bg{
+        width: 100%;
+        background: #fff;
+    }
+
+    nav.menu-centered{
+        text-align:left;
+    }
+
+    ul.menu-primary-menu * li a:hover, ul.menu-primary-menu * li a:active{
+        color: $dark-blue;
+    }
+
+}

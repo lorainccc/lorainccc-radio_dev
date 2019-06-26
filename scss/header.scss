@@ -1,0 +1,164 @@
+/*!
+Section 4: Header
+*/
+
+.searchbox{
+    height: 70px;
+    padding: 15px 0 15px 0;
+}
+
+input#s,input#s:focus {
+    max-width: 260px;
+    width: 100%;
+    height: 35px;
+    margin: 0 15px 0 0;
+    border-radius: 20px;
+    padding: .25rem .25rem .25rem 2.2rem;
+    font-size: .75rem;
+    font-weight: 700;
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon-search.png);
+    background-repeat: no-repeat;
+    background-position: .75rem .45rem;
+    float: left;
+}
+
+#searchsubmit {
+    -webkit-box-shadow: inset 0 1px 0 0 #f9eca0;
+    box-shadow: inset 0 1px 0 0 #f9eca0;
+    background: -moz-linear-gradient(center top,#ffeba8 5%,#ffc800 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeba8',endColorstr='#ffc800');
+    background-color: #ffeba8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-indent: 0;
+    border: 1px solid #e6b103;
+    display: inline-block;
+    color: #303030;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    padding: 8px 18px;
+    float: left;
+}
+
+#searchsubmit:hover {
+    background: -moz-linear-gradient(center top,#ffc800 5%,#ffeba8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc800',endColorstr='#ffeba8');
+    background-color: #ffc800
+}
+
+#searchsubmit:active {
+    position: relative;
+    top: 1px
+}
+
+a.skip-link.screen-reader-text {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden
+}
+
+a.skip-link.screen-reader-text:focus {
+    position: static;
+    width: auto;
+    height: auto
+}
+
+.ql-icon {
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: .78125rem .78125rem
+}
+
+.ql-1 {
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon-az_blue.svg)
+}
+
+.ql-2 {
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon-faculty_blue.svg)
+}
+
+.ql-3 {
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon_canvas.svg)
+}
+
+.ql-4 {
+    background-image: url(/wp-content/themes/lorainccc/images/icons/icon_my-campus.svg)
+}
+
+/*ul {
+    margin: 2.5rem;
+}*/
+
+/*! Ryan's Updated Menu Styling */
+.breadcrumb-container {
+    padding: 2rem .9375rem !important;
+    //font-size: .8625rem !important
+}
+
+.sidebar-widget {
+    padding-top: 0 !important;
+    margin: 1rem 0 3rem 0 !important
+}
+
+header.entry-header {
+    padding-top: 0 !important
+}
+
+.main-navigation ul:not(.sub-menu)>li {
+    border: 1px solid #dcdcdc !important;
+    box-shadow: inset 0 0 10px #dcdcdc !important;
+    padding: .75rem 2rem .75rem 1rem !important
+}
+
+.main-navigation ul:not(.sub-menu)>li>a{
+    font-size: 1rem !important;
+    color: #0055a5 !important;
+    font-weight: 700 !important
+}
+
+.dropdown-toggle {
+    top: 10px !important;
+    right: 4px
+}
+
+.main-navigation ul ul {
+    margin-left: 0 !important;
+    padding-left: 1rem
+}
+
+.main-navigation ul ul li {
+    border-top: 1px solid #dcdcdc !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.main-navigation ul ul li a {
+    color: #0055a5 !important
+}
+
+ul {
+    margin-top: 0 !important
+}
+td.gsc-clear-button{
+	display: none;
+}
+table.gsc-search-box tbody{
+	background: transparent; 
+	border: none;
+}
+
+@media print {
+		header.site-header{
+			padding-top: 1rem;
+		}
+}

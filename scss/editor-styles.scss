@@ -1,0 +1,93 @@
+/* Clipboard Bullets */
+
+ul.bullet-clipboard{
+ list-style-type:none;
+ margin: 0px;
+}
+
+ul.bullet-clipboard link{
+ text-indent: -1.4em;
+}
+
+ul.bullet-clipboard li{
+ margin: 5px 0 0 0;
+ padding: 0 0 15px 0;
+}
+
+ul.bullet-clipboard li:before{
+ font-family: "Genericons";
+ font-size: 38px;
+ content: "\f425";
+ margin: -18px 0 0 0;
+ color: #606060;
+ float: left;
+ width: 1.4em;
+}
+
+/* Arrow Bullets */
+
+ul.bullet-arrow{
+ list-style-type:none;
+ margin: 0px;
+}
+
+ul.bullet-arrow link{
+ text-indent: -1.4em;
+}
+
+ul.bullet-arrow li{
+ margin: 5px 0 0 0;
+ padding: 0 0 15px 0;
+}
+
+ul.bullet-arrow li:before{
+ font-family: "Genericons";
+ font-size: 38px;
+ content: "\f429";
+ margin: -18px 0 0 0;
+ color: #606060;
+ float: left;
+ width: 1.4em;
+}
+
+/* Link Buttons */
+
+a.blue-button{
+    background: linear-gradient(to bottom,#1790e0 0%, #1583cc 50%, #147cc2 51%, #1376b8 100%);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    border-radius: 0.25em;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+a.blue-button-250{
+    background: linear-gradient(to bottom,#1790e0 0%, #1583cc 50%, #147cc2 51%, #1376b8 100%);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    border-radius: 0.25em;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    min-width: 250px;
+    max-width: 250px;
+    text-align: center;
+}
+
+a.blue-button-300{
+    background: linear-gradient(to bottom,#1790e0 0%, #1583cc 50%, #147cc2 51%, #1376b8 100%);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    border-radius: 0.25em;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    min-width: 300px;
+    max-width: 300px;
+    text-align: center;
+}
